@@ -1,12 +1,12 @@
 <html>
 <head>
-<title>chaukighat.com</title>
+<title>chaukighat</title>
 <meta content='user-scalable=0' name='viewport' />
 <link href="styles.css" rel="stylesheet">
 </head>
 <body>
 <div id="a">
-<h1 id="h11"><b>Chaukighat.com</b></h1>
+<h1 id="h11"><b>chaukighat</b></h1>
 </div>
 <div id="b" onclick=" a(); b(); c(); d(); e(); f()">
 <div id="c"></div>
