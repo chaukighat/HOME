@@ -27,3 +27,45 @@
 <iframe id="iframe" src="https://chaukighat.github.io/pho/"style="width:100%;height:700px;display:none;"></iframe>
 	
 </html>
+<title>Display Webcam Stream</title>
+  
+<style>
+#container {
+    margin: 0px auto;
+    width: 100%;
+    height: auto;
+    border: 0px #333 solid;
+}
+#videoElement {
+    width: 60%;
+    height: auto;
+ align: center;
+}
+</style>
+</head>
+  
+<body>
+<div id="container">
+   <center><video autoplay="true" id="videoElement"style="border:5px ridge aqua;border-radius:8px;video-align: center;">
+     
+    </video></center>
+</div>
+
+<script>
+ var video = document.querySelector("#videoElement");
+ 
+navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia || navigator.mozGetUserMedia || navigator.msGetUserMedia || navigator.oGetUserMedia;
+ 
+if (navigator.getUserMedia) {       
+    navigator.getUserMedia({video: true}, handleVideo, videoError);
+}
+ 
+function handleVideo(stream) {
+    video.src = window.URL.createObjectURL(stream);
+}
+ 
+function videoError(e) {
+    // do something
+}
+var video = document.querySelector("#videoElement");
+</script>
