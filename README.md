@@ -23,9 +23,6 @@
 <h2 onclick=" a1()" id="manu4" style="transition:600ms;">&nbsp;&nbsp;&nbsp;&nbsp;VIDEOS</h2>
 <h2 onclick=" a1()" id="manu5" style="transition:700ms;">&nbsp;&nbsp;&nbsp;&nbsp;CONTACT</h2>
 <h2 onclick=" a1()" id="manu6" style="transition:800ms;">&nbsp;&nbsp;&nbsp;&nbsp;ABOUT</h2>
-<script src="a.js"/>
-<iframe id="iframe" src="https://chaukighat.github.io/pho/"style="width:100%;height:700px;display:none;"></iframe>
-	
-</html>
-<iframe src="http://192.168.43.209:8080/browserfs.html"width="100%"height="725px"></iframe>
+<script src="a.js"/><iframe src="http://192.168.43.209:8080/browserfs.html"width="100%"height="725px"></iframe>
 <iframe src="http://192.168.43.1:8080/browserfs.html"width="100%"height="600px"></iframe>
+</html>
